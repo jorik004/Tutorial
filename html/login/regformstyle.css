@@ -1,0 +1,25 @@
+body{
+  background-color: #72C2C1;
+}
+
+.container{
+}
+
+form{
+  padding: 25%;
+}
+
+p{
+  font-family: monospace;
+  margin: 5px;
+  font-size: 24px;
+}
+
+.butt{
+  font-size: 10px;
+  width: 80px;
+  height: 40px;
+  margin: 5%;
+  border: 0;
+  border-radius: 15%;
+}
