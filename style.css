@@ -1,0 +1,137 @@
+.bgimg{
+  margin: auto;
+  padding: auto;
+  display: none;
+}
+.pashalka{
+  position: absolute;
+  top: 5%;
+}
+
+
+
+
+
+body {
+  background-color: lightgray;
+  margin: 3px;
+  font-size: 15pt;
+}
+.wrapper{
+ 
+}
+.container{
+  max-width: 1024px;
+  
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*Меню*/
+.navMenu{
+  min-width: 100%;
+  height: 50px;
+  background-color: #747266;
+}
+/*.navMenu p {
+  position: absolute;
+  right: 0;
+  border: 3px solid #41A191;
+  margin: .64% .64% auto;
+  border-radius: 10%;
+}*/
+.login {
+    position: absolute;
+    right: 0%;
+    /*border: 3px solid #41A191;*/
+    margin: 1.75% 3%;
+}
+.register {
+    position: absolute;
+    right: 0%;
+    /*border: 3px solid #41A191;*/
+    margin: 1.75% 10%;
+}
+@media (max-width: 640px){
+  .login {
+  margin: 3% 8%;
+}
+.register {
+  margin: 3% 25%;
+}
+
+
+}
+
+.textLogo{
+ font-size: 30px;
+ position: absolute;
+ top: 0%;
+ left: 0%;
+ margin-top: 1%;
+ margin-left: 2%;
+}
+.yellow{
+  color: #FFEB2C;
+  font-weight: bold;
+}
+
+/*Информация*/
+.borderline{
+  border-bottom: 2px solid #535350FA;
+}
+
+.information{
+  max-width: 100%;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  margin-top: 5%;
+}
+.information img{
+  max-width: 100%;
+}
+
+
+/*.infoblock2{
+  width: 50%;
+}
+.infoblock3{
+  position: absolute;
+  left: 50%;
+  width: 50%;
+}*/
+
+.doubleinfoblock{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media (max-width: 640px){
+  .doubleinfoblock{
+    text-align: left;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+/*Ссылки на соц сети*/
+.iconsLink{
+  margin-top: 40%; /*Потом удалить, когда страница станет больше*/
+  display: flex;
+  justify-content: space-around;
+}
+@media(max-width: 640px){
+  .iconsLink{
+    margin-top: 0;
+  }
+}
