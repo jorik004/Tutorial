@@ -1,137 +1,128 @@
-.bgimg{
-  margin: auto;
-  padding: auto;
+.pashalkaAlan{
+  background: url(https://c.tenor.com/77ahcECa0S4AAAAM/chick-bird.gif);
+  width: 100%;
   display: none;
 }
-.pashalka{
-  position: absolute;
-  top: 5%;
+.pashalkaAlan p{
+  text-align: center;
+  font-size: 300px;
 }
 
 
 
-
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
 
 body {
-  background-color: lightgray;
-  margin: 3px;
-  font-size: 15pt;
-}
-.wrapper{
- 
+    font-size: 15pt;
+    /*background: url(resources/img/bg.png);
+    background-attachment: fixed;*/
+    color: white;
+    overflow-x: hidden;
 }
 .container{
-  max-width: 1024px;
+  background: url(resources/img/bg.png);
+  background-attachment: fixed;
   
 }
-
-a{
-  text-decoration: none;
-  color: black;
+/*HEADER*/
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2025;
 }
-
-/*Меню*/
-.navMenu{
-  min-width: 100%;
-  height: 50px;
-  background-color: #747266;
+.tagline{
+  margin-left: 15px;
 }
-/*.navMenu p {
-  position: absolute;
-  right: 0;
-  border: 3px solid #41A191;
-  margin: .64% .64% auto;
-  border-radius: 10%;
-}*/
-.login {
-    position: absolute;
-    right: 0%;
-    /*border: 3px solid #41A191;*/
-    margin: 1.75% 3%;
+.sectionsHeader{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
 }
-.register {
-    position: absolute;
-    right: 0%;
-    /*border: 3px solid #41A191;*/
-    margin: 1.75% 10%;
-}
-@media (max-width: 640px){
-  .login {
-  margin: 3% 8%;
-}
-.register {
-  margin: 3% 25%;
+.sectionsHeader img{
+  width: 25px;
 }
 
 
-}
-
-.textLogo{
- font-size: 30px;
- position: absolute;
- top: 0%;
- left: 0%;
- margin-top: 1%;
- margin-left: 2%;
-}
-.yellow{
-  color: #FFEB2C;
-  font-weight: bold;
-}
-
-/*Информация*/
-.borderline{
-  border-bottom: 2px solid #535350FA;
-}
-
-.information{
-  max-width: 100%;
-  font-family: monospace, Arial, Helvetica, sans-serif;
-  margin-top: 5%;
-}
-.information img{
-  max-width: 100%;
-}
-
-
-/*.infoblock2{
-  width: 50%;
-}
-.infoblock3{
-  position: absolute;
-  left: 50%;
-  width: 50%;
-}*/
-
-.doubleinfoblock{
+/*MAIN PAGE*/
+.block1{
+  height: 500px;
   text-align: center;
+  padding-top: 350px;
+}
+.textPage{
+  margin: 0;
+  padding: 0;
+  font-size: 120px;
+  line-height: 0.8;
+}
+.learnMore{
+  margin: 50px;
+  padding: 0;
+}
+
+.productSlider{
+  background-color: #1F2025;
   display: flex;
   justify-content: space-around;
+  padding: 100px 0;
+}
+.product p{
+  margin-top: 10px
 }
 
 
-@media (max-width: 640px){
-  .doubleinfoblock{
-    text-align: left;
-    display: block;
-  }
-}
-
-
-
-
-
-
-
-
-/*Ссылки на соц сети*/
-.iconsLink{
-  margin-top: 40%; /*Потом удалить, когда страница станет больше*/
+/*ABOUT US*/
+.aboutUs{
+  background-color: #1B1A20;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding: 15px;
 }
-@media(max-width: 640px){
-  .iconsLink{
-    margin-top: 0;
-  }
+.aboutUs img{
+  width: 400px;
+}
+.aboutUs h2{
+  padding-bottom: 100px;
+}
+
+/*HELP CENTER*/
+.helpCenter{
+  background-color: #27282D;
+  padding: 15px;
+}
+.textHelpCenter{
+  text-align: center;
+  padding-top: 50px;
+}
+.questions{
+  padding: 100px 0;
+}
+.questions div :first-child{
+  font-size: 30px;
+}
+
+
+/*CONTACT YOU*/
+.contact{
+  background-color: #1B1A20;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 15px;
+}
+.contactText{
+  text-decoration: none;
+}
+.contactForm input{
+  background-color: #1B1A20;
+  border: none;
+}
+.contactForm textarea{
+  background-color: #1B1A20;
+  border: none;
 }
