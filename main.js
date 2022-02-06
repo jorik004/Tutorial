@@ -1,4 +1,4 @@
-localStorage.getItem('_users');
+localStorage.getItem('users')
 
 pashalka = document.querySelector('.pashalka');
 container = document.querySelector('.container');
@@ -13,5 +13,5 @@ pashalka.addEventListener('click', function(){
   pashalkaAlan.style.display = 'block';
   _users++;
   users.innerText = _users;
-  localStorage.setItem('_users', _users);
+  localStorage.setItem('users', _users);
 });
