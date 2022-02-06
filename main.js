@@ -1,4 +1,4 @@
-_users = 1;
+let _users = 1;
 _users = localStorage.getItem('users');
 
 pashalka = document.querySelector('.pashalka');
