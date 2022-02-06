@@ -1,10 +1,10 @@
-localStorage.getItem('users')
+_users = 1;
+_users = localStorage.getItem('users');
 
 pashalka = document.querySelector('.pashalka');
 container = document.querySelector('.container');
 pashalkaAlan = document.querySelector('.pashalkaAlan');
 users = document.querySelector('.users');
-_users = 1;
 console.log(_users);
 
 
